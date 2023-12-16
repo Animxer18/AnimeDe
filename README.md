@@ -9,11 +9,7 @@
 
 ## Demo
 
--   https://animedex.pages.dev
--   https://animedex-lite.netlify.app
--   https://techshreyash.github.io/AnimeDexLite
--   https://animedexlite.vercel.app
--   https://animedexlite.onrender.com
+-   animexia.pages.dev
 
 ## Host Your Own (Free Hostings)
 
