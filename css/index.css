@@ -171,14 +171,16 @@ h1 {
 }
 
 .watch-btn {
-    background: #ed3832;
-    color: black;
-    border-radius: 4px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
     padding: 10px 20px;
-    text-decoration: none;
-}
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fd1313, #b600ad);
+    box-shadow: 0 0 10px #ff004c;
+    position: relative;
+    overflow: hidden;
+  }
 
 #watchh {
     margin: 30px 0px 20px 0px;
@@ -192,7 +194,7 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #ff0909;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -587,6 +589,8 @@ h2 {
 .slideshow-container {
     width: 100%;
     position: relative;
+    height: fit-content;
+    
 }
 
 .data-slider h1 {
@@ -694,7 +698,7 @@ h2 {
 }
 
 .watch-btn2 {
-    background-color: #4a4b51;
+    background-color: #ff0000;
     color: white;
     margin-left: 15px;
 }
