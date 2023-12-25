@@ -951,14 +951,14 @@ a {
 
 #vid-sec {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 #video {
-    position: relative;
+    position:static ;
     overflow: hidden;
     width: 100%;
-    padding-top: 750px;
+    padding-top: 500px;
 }
 
 #video iframe {
