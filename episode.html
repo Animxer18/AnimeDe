@@ -123,6 +123,15 @@
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
         data-cf-beacon='{"token": "38e4e7f34b804941a08af23791add667"}'></script>
     <!-- End Cloudflare Web Analytics -->
+    <script>
+        // JavaScript logic to dynamically adjust the aspect ratio of the video container
+        const video = document.getElementById('AnimeDexFrame');
+        video.onload = () => {
+            const aspectRatio = video.offsetWidth / video.offsetHeight;
+            const videoContainer = document.getElementById('video');
+            videoContainer.style.paddingBottom = `${(1 / aspectRatio) * 100}%`;
+        };
+    </script>
 </body>
 
 </html>

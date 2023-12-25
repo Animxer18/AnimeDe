@@ -120,7 +120,7 @@ a {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-bottom: 56.25%; /* Default 16:9 aspect ratio */
+     /* Default 16:9 aspect ratio */
 }
 
 #video iframe {
@@ -538,7 +538,7 @@ a {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
+    
 }
 
 #video iframe {
@@ -958,7 +958,7 @@ a {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 750px;
 }
 
 #video iframe {
